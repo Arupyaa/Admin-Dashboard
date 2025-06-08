@@ -202,10 +202,23 @@ h3{
 }
 
 .trending{
-    min-height: 15rem;
+    min-height: 17rem;
+    min-width: max-content;
 }
 
 hr{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+.trending-card img{
+    height: 4rem;
+    vertical-align: middle;
+}
+.trending-card>div{
+    margin-left: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
