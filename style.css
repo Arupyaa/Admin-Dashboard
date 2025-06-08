@@ -7,10 +7,6 @@
     ;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
 
 .container {
     display: grid;
@@ -33,6 +29,7 @@ a {
 /* sidebar styling */
 
 .sidebar {
+    min-width: max-content;
     grid-column: 1;
     grid-row: 1/span 2;
     background-color: deepskyblue;
@@ -48,12 +45,30 @@ a {
 
     & ul {
         list-style: none;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+        font-weight: bold;
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    vertical-align: middle;
+}
+
+
+li svg{
+    vertical-align: middle;
+}
+
+
+.sidebar>div{
+    display: flex;
+    align-items: center;
 }
 
 /* header styling */
