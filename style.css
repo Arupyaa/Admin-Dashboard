@@ -103,10 +103,29 @@ li svg{
     & span {
         font-size: 1.5rem;
         font-weight: bold;
+        vertical-align: middle;
+    }
+
+    & img{
+        height: 3rem;
+        margin: 0 1rem;
+        vertical-align: middle;
+    }
+    & svg{
+        vertical-align: middle;
     }
 }
 
-.title-section div:last-child {
+.title-section img{
+    height: 4rem;
+    vertical-align: middle;
+}
+
+.title-section>div{
+    display: inline-block;
+    vertical-align:middle;
+}
+.title-section>div>div:last-child {
     font-size: 2rem;
     font-weight: bold;
 }
