@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    min-height: 100vh;
+}
+
+.sidebar{
+    grid-column: 1;
+    grid-row: 1/span 2;
+    background-color: deepskyblue;
+    align-self: stretch;
+
+}
+
+.header{
+    grid-column: 2;
+    grid-row: 1;
+    border-bottom: 0.2rem solid #cad0d8;
+}
+
+.main-section{
+    background-color: #e1e8f0;
+}
